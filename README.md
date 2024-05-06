@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# React Challenges - Part One
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Build an Image Library
 
-## Available Scripts
+- This is a project where you build an image library which shows the images inside each albums
+- Information of Albums can be fetch using the following api https://jsonplaceholder.typicode.com/albums
+- Information of Images can be fetch using the following api https://jsonplaceholder.typicode.com/photos
+- The default page where the user lands shows the list of albums on the side nav which would be placed to the left and by default the first album would be selected.
+- On the right, images related only to the album should be displayed.
+- To display images of a respective album you would need to filter the data using albumid
+- This page would also contain a header where a logo would be place on the left corner
+- This side navbar should sticky and make sure you have handled errors and loading states to give a pleasant user experience.
 
-In the project directory, you can run:
+# Photos and Albums
 
-### `npm start`
+This project is a simple web application that allows users to view albums and photos from the JSONPlaceholder API.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Display a list of albums fetched from the JSONPlaceholder API.
+2. Show photos associated with each album.
+3. Filter photos based on selected albums.
+4. Responsive design for various screen sizes.
 
-### `npm test`
+## Technologies Used
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React: A JavaScript library for building user interfaces.
+- JavaScript: The programming language used for client-side logic.
+- HTML: The standard markup language for creating web pages.
+- CSS: The style sheet language used for styling web pages.
+- JSONPlaceholder API: A fake online REST API for testing and prototyping.
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the project locally, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   ```bash
+   git clone https://github.com/your-username/photos-and-albums.git
 
-### `npm run eject`
+2. Navigate to the project directory:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+   cd photos-and-albums
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+   npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+4. Start the development server:
 
-## Learn More
+```
+   npm start
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+5. Open your browser and visit http://localhost:3000 to view the application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Contributing
 
-### Code Splitting
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+1. Fork the repository on GitHub.
+2. Clone your forked repository to your local machine.
+3. Create a new branch to work on.
+4. Make your changes and commit them with descriptive commit messages.
+5. Push your changes to your forked repository.
+6. Submit a pull request to the main repository.
 
-### Analyzing the Bundle Size
+# License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This project is licensed under the MIT License - see the LICENSE file for details.
