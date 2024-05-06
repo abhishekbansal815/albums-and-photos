@@ -41,18 +41,18 @@ To run the project locally, follow these steps:
 
 2. Navigate to the project directory:
 
-```
-   cd photos-and-albums
+   ```bash
+      cd photos-and-albums
 
 3. Install dependencies:
 
-```
-   npm install
+   ```bash
+      npm install
 
 4. Start the development server:
 
-```
-   npm start
+   ```bash
+      npm start
 
 5. Open your browser and visit http://localhost:3000 to view the application.
 
