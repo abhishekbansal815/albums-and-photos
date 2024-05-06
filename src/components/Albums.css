@@ -1,0 +1,42 @@
+aside {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 140vh;
+    /* Adjust height as needed */
+    overflow-y: auto; 
+    /* Allow scrolling if content overflows */
+    width: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    float: left;
+    font-style: italic;
+    background-color: orange;
+}
+
+.album {
+    /* display: inline-block; */
+    text-align: left;
+    text-decoration: underline;
+    color: blue;
+    margin-bottom: 15px;
+}
+
+.album:hover {
+    cursor: pointer;
+}
+
+h2 {
+    text-decoration: underline;
+    color:red;
+}
+
+div {
+    /* position: sticky;
+    top: 0; */
+    /* z-index: 1px; */
+    /* height: 100vh; */
+    overflow-y: auto;
+}
